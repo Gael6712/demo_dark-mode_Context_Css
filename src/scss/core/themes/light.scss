@@ -5,8 +5,14 @@
 $bg-color: #ceccc9;
 $nav-color: #61616d;
 $title-color: #1a1a1b;
+$tertiary-title: #901919;
 $text-color: #1a1a1b;
+$toggle-theme_bg: rgba(0, 0, 0, 0.445);
+$toggle-theme_color: ivory;
 $secondary_text-color: #a82525;
+$box-content: rgb(216, 219, 219);
+$box-shadow_content: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+  rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 /*
   === CORE STYLE LIGHT ==
 */
@@ -17,13 +23,26 @@ $secondary_text-color: #a82525;
   .navBar {
     background-color: $nav-color;
   }
+  button {
+    background-color: $toggle-theme_bg;
+    color: $toggle-theme_color;
+  }
+  span {
+    display: none;
+  }
   h1 {
     color: $title-color;
   }
-  h2 {
-    color: $secondary_text-color;
+
+  h4 {
+    color: $tertiary-title;
   }
+
   p {
     color: $text-color;
+  }
+  .content {
+    background-color: $box-content;
+    box-shadow: $box-shadow_content;
   }
 }
