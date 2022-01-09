@@ -1,0 +1,29 @@
+/*
+  === ROOT VARIABLE ==
+*/
+
+$bg-color: #ceccc9;
+$nav-color: #61616d;
+$title-color: #1a1a1b;
+$text-color: #1a1a1b;
+$secondary_text-color: #a82525;
+/*
+  === CORE STYLE LIGHT ==
+*/
+.lightmode {
+  transition: 0.5s ease all;
+  background: $bg-color;
+
+  .navBar {
+    background-color: $nav-color;
+  }
+  h1 {
+    color: $title-color;
+  }
+  h2 {
+    color: $secondary_text-color;
+  }
+  p {
+    color: $text-color;
+  }
+}

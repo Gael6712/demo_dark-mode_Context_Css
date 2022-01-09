@@ -1,0 +1,33 @@
+/*
+  === ROOT VARIABLE ==
+*/
+$bg-color: #1a1a1b;
+$nav-color: #1a1a1b;
+$title-color: #f7ecdd;
+$card-title: #268819;
+$secondary_text-color: #6a635b;
+$text-color: #f7ecdd;
+
+/*
+  === CORE STYLE DARK ==
+*/
+.darkmode {
+  background: $bg-color;
+  transition: 0.5s ease all;
+  .navBar {
+    background-color: $nav-color;
+  }
+
+  h1 {
+    color: $title-color;
+  }
+  h2 {
+    color: $secondary_text-color;
+  }
+  h4 {
+    color: $card-title;
+  }
+  p {
+    color: $text-color;
+  }
+}
