@@ -1,6 +1,6 @@
 # Demo - Projet dark-mode 
 [ useContext - useEffect - localStorage - Scss ]
 
-## Veuillez télécharger la branche intiale si vous souhaitez démarrer sans le ContextProvider !
+## Veuillez switch la branche [ initial_project_noContext ] si vous souhaitez démarrer sans le ContextProvider !
 
 Entrainez-vous !! 
