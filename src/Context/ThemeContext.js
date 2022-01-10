@@ -13,16 +13,16 @@ const ThemeContextProvider = (props) => {
 
   console.log(darkMode);
 
-  // On veux Créer le btn pour changer la valeur
+  // On veux créer le btn pour changer la valeur
 
   const toggleDark = () => {
     setDarkMode(!darkMode);
     localStorage.setItem("darkMode", JSON.stringify(!darkMode));
-    // localStorage , enregistre les données sous forme de paires clé-valeur ! Ne s'éfface pas lors de la fermeture du navigateur
+    // localStorage , enregistre les données sous forme de paires : clé-valeur ! Ne s'éfface pas lors de la fermeture du navigateur
   };
 
   // Mise à jour du local storage dans React !
-  // Comment mettre à jour le locale storage on montage ?
+  // Comment mettre à jour le locale storage au montage ?
   useEffect(() => {
     setDarkMode(false);
     const lsDark = JSON.parse(localStorage.getItem("darkMode"));
