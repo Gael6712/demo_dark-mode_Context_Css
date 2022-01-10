@@ -5,5 +5,5 @@
 
 Entrainez-vous !! 
 ```diff
-- initial_project_noContext
+initial_project_noContext
 ``` 
